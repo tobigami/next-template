@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -14,6 +16,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.523.0",
     "next": "15.3.4",
+    "prettier": "^3.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.3.1"
